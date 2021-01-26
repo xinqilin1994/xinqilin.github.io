@@ -145,6 +145,29 @@ a.text-white-link:active {
 	box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important;
 }
 
+/* Purple button to go with the Instagram Purple. The active/focus/etc stuff is for when you
+   hover / click on the button. */
+.btn-purple {
+	color: #fff;
+	background-color: #C13584 !important;
+}
+.btn-purple:active, .btn-purple:focus, .btn-purple:hover {
+	color: #fff;
+	background-color: #c9699f !important;
+}
+.btn-purple:active, .btn-purple:focus {
+	box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important;
+}
+
+
+/* purple hrefs & hrs */
+.href-purple {
+	color: #C13584;
+}
+.hr-black {
+	border-color: #C13584;
+	color: #C13584;
+}
 /* Black hrefs & hrs too */
 .href-black {
 	color: #000000;
