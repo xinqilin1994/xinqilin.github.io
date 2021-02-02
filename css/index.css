@@ -6,6 +6,7 @@
 
 .text-italic {
   font-style: italic;
+  font-weight: bold;
 }
 
 /* Making the "text-muted" class smaller, seems a bit too large. */
