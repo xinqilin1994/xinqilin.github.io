@@ -87,13 +87,6 @@ a {
 
 /* Tablet View */
 @media (max-width: 960px){
-   .project1 {width: 40%;}
-   .project2 {width: 40%;}
-   .project3 {width: 40%;}
-   .project4 {width: 40%;}
-   .project5 {width: 40%;}
-   .project6 {width: 40%;}
-
 
     h1 {
         color: white;
@@ -140,16 +133,8 @@ a {
         width: 20px;
     }
 }
-
 /* Mobile View */
 @media (max-width: 600px){
-    .project1 {width: 90%;}
-    .project2 {width: 90%;}
-    .project3 {width: 90%;}
-    .project4 {width: 90%;}
-    .project5 {width: 90%;}
-    .project6 {width: 90%;}
-
     .contact-column a {
         font-size: 1rem;
     }
