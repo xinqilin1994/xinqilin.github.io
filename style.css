@@ -168,6 +168,15 @@ main a {
         width: 80%;
     }
 
+    h1 {
+        color: white;
+        font-family: 'Zen Loop', sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 30px;
+    }
+
     nav { 
         display: none;
     }
@@ -175,7 +184,7 @@ main a {
     .mob-wrapper {
         display: block;
         padding-right: 30px;
-        padding-top: 33px;
+        padding-top: 25px;
     }
 
     .mob-nav {
@@ -194,10 +203,14 @@ main a {
     .mob-nav a {
         color: white;
         text-decoration: none;
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         padding-left: 10px;
         padding-right: 10px;
         font-family: 'Montserrat', sans-serif;
+    }
+
+    img {
+        width: 20px;
     }
 }
 
@@ -217,6 +230,40 @@ main a {
 
     .contact-column p {
         font-size: 0.9rem;
+    }
+ 
+    h1 {
+        color: white;
+        font-family: 'Zen Loop', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .mob-wrapper {
+        display: block;
+        padding-right: 30px;
+        padding-top: 15px;
+        
+    }
+
+    .mob-nav {
+        display: none;
+        position: absolute;
+    }
+
+    img {
+        width: 15px;
+    }
+
+    .mob-nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
