@@ -78,3 +78,54 @@ a {
     color: "white";
     font-size: 30px;
 }
+
+.mob-wrapper {
+    display: none;
+}
+
+/* Tablet View */
+@media (max-width: 960px){
+
+    nav { 
+        display: none;
+    }
+
+    .mob-wrapper {
+        display: block;
+        padding-right: 30px;
+        padding-top: 33px;
+    }
+
+    .mob-nav {
+        display: none;
+        position: absolute;
+    }
+
+    .mob-button {
+        display: block;
+        padding: 15px 30px;
+        background-color: black;
+        text-align: center;
+        margin-left: -23px;
+    }
+
+    .mob-nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.8rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 600px){
+    .contact-column a {
+        font-size: 1rem;
+    }
+
+    .contact-column p {
+        font-size: 0.9rem;
+    }
+}
