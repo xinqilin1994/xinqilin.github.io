@@ -285,37 +285,50 @@ footer p {
    .project6 {width: 40%;}
 
 
-   nav { 
-    display: none;
-}
+    h1 {
+        color: white;
+        font-family: 'Zen Loop', sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 30px;
+    }
 
-.mob-wrapper {
-    display: block;
-    padding-right: 30px;
-    padding-top: 33px;
-}
+    nav { 
+        display: none;
+    }
 
-.mob-nav {
-    display: none;
-    position: absolute;
-}
+    .mob-wrapper {
+        display: block;
+        padding-right: 30px;
+        padding-top: 25px;
+    }
 
-.mob-button {
-    display: block;
-    padding: 15px 30px;
-    background-color: black;
-    text-align: center;
-    margin-left: -23px;
-}
+    .mob-nav {
+        display: none;
+        position: absolute;
+    }
 
-.mob-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.8rem;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Montserrat', sans-serif;
-}
+    .mob-button {
+        display: block;
+        padding: 15px 30px;
+        background-color: black;
+        text-align: center;
+        margin-left: -23px;
+    }
+
+    .mob-nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.8rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    img {
+        width: 20px;
+    }
 }
 
 /* Mobile View */
@@ -333,5 +346,39 @@ footer p {
 
     .contact-column p {
         font-size: 0.9rem;
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Zen Loop', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .mob-wrapper {
+        display: block;
+        padding-right: 30px;
+        padding-top: 15px;
+        
+    }
+
+    .mob-nav {
+        display: none;
+        position: absolute;
+    }
+
+    img {
+        width: 15px;
+    }
+
+    .mob-nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Montserrat', sans-serif;
     }
 }
