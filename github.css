@@ -269,6 +269,11 @@ footer p {
     text-align: center;
 }
 
+.mob-wrapper {
+    display: none;
+}
+
+
 /* Tablet View */
 @media (max-width: 960px){
    .project1 {width: 40%;}
