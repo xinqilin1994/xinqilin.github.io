@@ -268,3 +268,64 @@ footer p {
     padding-right: 5px;
     text-align: center;
 }
+
+/* Tablet View */
+@media (max-width: 960px){
+   .project1 {width: 40%;}
+   .project2 {width: 40%;}
+   .project3 {width: 40%;}
+   .project4 {width: 40%;}
+   .project5 {width: 40%;}
+   .project6 {width: 40%;}
+
+
+   nav { 
+    display: none;
+}
+
+.mob-wrapper {
+    display: block;
+    padding-right: 30px;
+    padding-top: 33px;
+}
+
+.mob-nav {
+    display: none;
+    position: absolute;
+}
+
+.mob-button {
+    display: block;
+    padding: 15px 30px;
+    background-color: black;
+    text-align: center;
+    margin-left: -23px;
+}
+
+.mob-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+}
+
+/* Mobile View */
+@media (max-width: 600px){
+    .project1 {width: 90%;}
+    .project2 {width: 90%;}
+    .project3 {width: 90%;}
+    .project4 {width: 90%;}
+    .project5 {width: 90%;}
+    .project6 {width: 90%;}
+
+    .contact-column a {
+        font-size: 1rem;
+    }
+
+    .contact-column p {
+        font-size: 0.9rem;
+    }
+}
