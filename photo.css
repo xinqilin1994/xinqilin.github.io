@@ -81,9 +81,7 @@ a {
     font-size: 30px;
 }
 
-.mob-wrapper {
-    display: none;
-}
+
 
 /* Tablet View */
 @media (max-width: 960px){
@@ -91,47 +89,15 @@ a {
     h1 {
         color: white;
         font-family: 'Zen Loop', sans-serif;
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 600;
-        text-align: left;
-        padding-left: 30px;
-    }
-
-    nav { 
-        display: none;
-    }
-
-    .mob-wrapper {
-        display: block;
-        padding-right: 30px;
-        padding-top: 25px;
-    }
-
-    .mob-nav {
-        display: none;
-        position: absolute;
-    }
-
-    .mob-button {
-        display: block;
-        padding: 15px 30px;
-        background-color: black;
         text-align: center;
-        margin-left: -23px;
     }
 
-    .mob-nav a {
-        color: white;
-        text-decoration: none;
-        font-size: 0.8rem;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-family: 'Montserrat', sans-serif;
+    nav a {
+        font-size: 1rem;
     }
 
-    img {
-        width: 20px;
-    }
 }
 /* Mobile View */
 @media (max-width: 600px){
@@ -143,37 +109,25 @@ a {
         font-size: 0.9rem;
     }
 
+    header {
+        height: 100px;
+    }
+
     h1 {
         color: white;
         font-family: 'Zen Loop', sans-serif;
         font-size: 1.5rem;
         font-weight: 600;
-        text-align: left;
-        padding-left: 30px;
+        text-align: center;
     }
 
-    .mob-wrapper {
-        display: block;
-        padding-right: 30px;
-        padding-top: 15px;
-        
-    }
-
-    .mob-nav {
-        display: none;
-        position: absolute;
-    }
-
-    img {
-        width: 15px;
-    }
-
-    .mob-nav a {
+    nav a {
         color: white;
         text-decoration: none;
         font-size: 0.5rem;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
         font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
     }
 }
