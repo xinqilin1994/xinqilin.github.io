@@ -243,9 +243,8 @@ main a {
 
     .mob-wrapper {
         display: block;
-        padding-right: 30px;
-        padding-top: 15px;
-        
+        padding-right: 40px;
+        padding-top: 15px; 
     }
 
     .mob-nav {
@@ -253,17 +252,18 @@ main a {
         position: absolute;
     }
 
+    .mob-button {
+        margin-left: -35px;
+    }
+
     img {
         width: 10px;
     }
 
     .mob-nav a {
-        color: white;
-        text-decoration: none;
-        font-size: 0.5rem;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-family: 'Montserrat', sans-serif;
+        font-size: 0.1rem;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
 
