@@ -32,7 +32,7 @@ nav {
 h1 {
     color: BLACK;
     font-family: 'Zen Loop', sans-serif;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
     text-align: center;
 }
@@ -40,7 +40,7 @@ h1 {
 nav a {
     color: black;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 1rem;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -106,7 +106,7 @@ a {
     }
 
     nav a {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .gallery {
