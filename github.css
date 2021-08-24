@@ -32,7 +32,7 @@ nav {
 h1 {
     color: white;
     font-family: 'Zen Loop', sans-serif;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
     text-align: center;
 }
@@ -53,7 +53,7 @@ a {
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -290,7 +290,7 @@ footer p {
     }
 
     nav a {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -316,8 +316,6 @@ footer p {
     }
 
     h1 {
-        color: white;
-        font-family: 'Zen Loop', sans-serif;
         font-size: 1.5rem;
         font-weight: 600;
         text-align: center;
@@ -329,8 +327,6 @@ footer p {
         font-size: 0.5rem;
         padding-left: 8px;
         padding-right: 8px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
     }
 
 }
