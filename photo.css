@@ -47,11 +47,21 @@ nav a {
     font-weight: 600;
 }
 
-main nav a {
-    font-size: 0.8rem;
+.picfair { 
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.picfair a {
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 footer {
@@ -112,6 +122,10 @@ a {
         font-size: 0.8rem;
     }
 
+    .picfair a {
+        font-size: 0.6rem;
+    }
+
     .gallery {
     column-count:2;
    }
@@ -139,6 +153,10 @@ a {
         font-size: 0.5rem;
         padding-left: 8px;
         padding-right: 8px;
+    }
+    
+    .picfair a {
+        font-size: 0.4rem;
     }
     
     .gallery {
