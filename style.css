@@ -276,7 +276,7 @@ main a {
 }
 
 .contact-column {
-    flex: 33.333%;
+    flex: 25%;
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
