@@ -107,6 +107,8 @@ a {
     column-gap:70px;
     column-width: 300px;
     padding: 50px, 0px, 50px, 50px;
+    margin-left: 10px;
+    margin-right: 10px;
  }
  
  #gallery img {
